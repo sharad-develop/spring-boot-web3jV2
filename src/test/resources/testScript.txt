@@ -1,0 +1,41 @@
+--Below is the sequence of requests to test at http://localhost:8080/swagger-ui.html
+
+--Deploy
+{
+  "address": "0xd87a5721b676e2a1cef5bc83aa11911a1598fbf0",
+  "password": "password12"
+}
+
+--Start Auction
+{
+  "address": "0xd87a5721b676e2a1cef5bc83aa11911a1598fbf0",
+  "auctionName": "antiqueAuction",
+  "auctionTime": 3,
+  "password": "password12"
+}
+
+-- Bid
+{
+  "address": "0x0e8335a0bedf66436ed6f05cc5ed88b495681cb4",
+  "auctionName": "antiqueAuction",
+  "bid": 1,
+  "key": "xxx",
+  "password": "password1234"
+}
+
+--Bid
+{
+  "address": "0x5b71edb8734798ae228bd309c7c86acf07454b53",
+  "auctionName": "antiqueAuction",
+  "bid": 2,
+  "key": "xxy",
+  "password": "password123"
+}
+
+--end auction
+{
+  "address": "0xd87a5721b676e2a1cef5bc83aa11911a1598fbf0",
+  "auctionName": "antiqueAuction",
+  "key": "xxy",
+  "password": "password12"
+}
