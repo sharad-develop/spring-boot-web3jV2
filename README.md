@@ -6,7 +6,7 @@ The accounts need not be unlocked in beforehand. They get unlocked as and when f
 
 ## Contract
 At the heart of this is a solidity contract for a decentralised auction. The address that starts the auction is assumed to be
-the owner. Every bidder, passes along with the bid a key which places the bid in a kid of escrow till the bidder(or anyone)
+the owner. Every bidder, passes along with the bid, a key which places the bid in a kind of escrow till the bidder(or anyone)
 ends the auction with the same key which also can signal that items of the bid were successfully removed.
 
 The contract is exposed completely exposed via webservices.
